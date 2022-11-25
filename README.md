@@ -16,4 +16,9 @@ This work is focused on development of a MR platform that integrates cut-ting-ed
 ### QRCode Calibration
 The position of the QRCode is assigned to the robot hologram first, and then the hologram is translated by using a transformation matrix
 
-$$ \\mathbit{mathbit}{\mathbit{T}}=\left[\begin{matrix}\mathbit{R}&\mathbit{p}\\\mathbf{0}_3^T&1\\\end{matrix}\right], $$
+$$
+T = \begin{bmatrix}
+R & p \\
+0^T_3 & 1 \\
+\end{bmatrix}
+$$
