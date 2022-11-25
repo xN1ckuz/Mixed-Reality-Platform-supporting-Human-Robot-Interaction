@@ -13,6 +13,9 @@ This work is focused on development of a MR platform that integrates cut-ting-ed
   - ROS Kinetic and Ubuntu 16.04 on Server Machine
   - Visual Studio Community 2019
 
+## Methods
+Now we will explain how we implemented the Human-Robot interface and how the two talks each other.
+
 ### QRCode Calibration
 The position of the QRCode is assigned to the robot hologram first, and then the hologram is translated by using the transformation matrix:
 $$
